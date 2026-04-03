@@ -13,11 +13,11 @@ A full technical report covering methodology, results, discussion, and misclassi
 
 ## Key Findings
 
-| Model                     | Accuracy   | F1 Score  | ROC-AUC   |
-| ------------------------- | ---------- | --------- | --------- |
-| **Linear SVM (C=0.1)** ✅ | **88.72%** | **0.887** | **0.956** |
-| RBF SVM                   | ~51%       | 0.667     | 0.58      |
-| Polynomial SVM            | ~50%       | 0.667     | 0.56      |
+| Model                     | Accuracy (%)   | F1 Score  | ROC-AUC   |
+| ------------------------- | -------------- | --------- | --------- |
+| **Linear SVM (C=0.1)**    | **88.72**      | **0.887** | **0.956** |
+| RBF SVM                   | ~51            | 0.667     | 0.58      |
+| Polynomial SVM            | ~50            | 0.667     | 0.56      |
 
 - **Linear SVM** significantly outperforms nonlinear kernels across all metrics
 - **RBF and Polynomial kernels** collapse to near-random guessing — predicting the positive class for virtually every sample
